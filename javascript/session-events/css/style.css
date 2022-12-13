@@ -1,0 +1,30 @@
+* { 
+    --dark-theme-bgColor : black;
+    --light-theme-bgColor : white;
+}
+body { 
+    background-color: gray;
+}
+.dark-mode { 
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.light-mode { 
+    background-color: white;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.dark-theme { 
+    background-color: var(--dark-theme-bgColor);
+}
+.light-theme { 
+    background-color: var(--light-theme-bgColor);
+}

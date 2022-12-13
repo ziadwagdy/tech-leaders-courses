@@ -1,0 +1,76 @@
+/* display:
+        inline
+        inline-block
+        block 
+        none 
+
+    overflow:
+        hidden 
+        auto
+        scroll
+    
+    visibility: 
+        hidden
+        visible 
+    
+    display : none VS visibitly : hidden 
+ */
+
+body {
+  margin: 0;
+}
+
+/* start header */
+li {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  /* visibility: hidden; */
+}
+/* end header */
+
+/* inline  */
+/* div {
+  display: inline;
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: red;
+} */
+
+h1 {
+  background-color: blue;
+  margin: 0;
+}
+/* inline-block */
+/* div {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+} */
+
+/* block */
+/* div {
+  margin: 10px;
+  padding: 20px;
+  width: 100px;
+  background-color: red;
+} */
+
+section .container {
+  padding: 25px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}

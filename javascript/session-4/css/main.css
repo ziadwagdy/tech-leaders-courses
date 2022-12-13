@@ -1,0 +1,10 @@
+.required-span { 
+    color : red; 
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: small;
+}
+
+/* .list-class { 
+    list-style-type: none;
+} */

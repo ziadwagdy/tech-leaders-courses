@@ -1,0 +1,8 @@
+.landing { 
+  /* background-color: rgb(173, 216, 230); */
+  background-image: url("../assets/image.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: white;
+  height: 500px;
+}

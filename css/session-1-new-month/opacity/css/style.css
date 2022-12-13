@@ -1,0 +1,11 @@
+p { 
+    background-color: red;
+    opacity: .5;
+}
+
+div { 
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    opacity: .2;
+}

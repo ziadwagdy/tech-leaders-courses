@@ -1,0 +1,8 @@
+/*  selecting by class name*/
+section .main-text  { 
+    background-color: grey;
+}
+
+.srv-text { 
+    font-size: 20px;
+}

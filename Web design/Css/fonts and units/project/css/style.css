@@ -1,0 +1,41 @@
+/* root element */
+* {
+    font-family: "Cairo";
+    background-color: red;
+}
+
+.parent { 
+    font-family:'Times New Roman', Times, serif;
+    background-color: blue;
+    border: 2px white solid;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.child { 
+    font-family: inherit;
+    background-color: inherit;
+    border: inherit;
+    padding: inherit;
+    font-size: 50%;
+}
+
+.test { 
+    height : 400px;
+    background-color: blue;
+}
+
+.test p { 
+    background-color: white;
+    width: 50vw;
+    height : 10vh;
+}
+/*
+    CSS Units 
+    px
+    em -> 1 time of the parent size 
+    rem -> root time (1 time of the root )
+    percentege -> direct parent if exists 
+    vw -> 1 % of viewport width
+    vh -> 1 % of viewport height
+*/

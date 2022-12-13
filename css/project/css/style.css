@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  /* list-style : square inside url("icon.png"); */
+  background-color: blue;
+  padding: 0 30px;
+}
+
+li {
+  background-color: yellow;
+  margin-bottom: 5px;
+}
+
+.table {
+    overflow-x: scroll;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+
+}
+
+th { 
+    background-color: green;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: blue;
+}

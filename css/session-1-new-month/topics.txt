@@ -1,0 +1,8 @@
+CSS : 
+Text Decoration and Transformation 
+Opacity 
+Position: (top, right, bottom, left)
+	-- static (reserved and doesn't change)
+	-- relative (based on it's own position) 
+	-- absolute (based on nearest relative parent)
+	-- fixed (based on the viewport) Example (Go to up bottom)

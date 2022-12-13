@@ -1,0 +1,28 @@
+/* select every h1 in the html */
+/* h1 {  
+    color: blue;
+} */
+
+/* select the h1 that is inside the header */
+/* header h1 a {
+    font-size: 40px;
+} */
+
+/* header ul li a {
+    text-decoration: none;
+    color: black;
+} */
+
+.nav .links .list-item .link,
+.content a {
+  text-decoration: none;
+  color: black;
+  background-color: blue;
+}
+
+#content #textId {
+                    /*    #FF0000 */
+  background-color: rgba(255, 0, 0);
+}
+
+/*  */

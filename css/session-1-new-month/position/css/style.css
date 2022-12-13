@@ -1,0 +1,85 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 2000px;
+}
+
+div {
+  width: 100px;
+  height: 40px;
+}
+
+.parent {
+  background-color: black;
+  height: 200px;
+  width: 400px;
+  position: relative;
+}
+
+.one {
+  background-color: red;
+  position: absolute;
+  /* width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: .7; */
+  top: 0px;
+  left: 0px;
+}
+.two {
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.three {
+  background-color: yellow;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.four {
+  background-color: purple;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.five {
+  background-color: brown;
+  position: absolute;
+  top: calc(50% - 20px);
+  right: calc(50% - 50px);
+}
+
+.up {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 25px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* .one {
+  background-color: red;
+  position: relative;
+  left: -50px;
+  top: -20px;
+}
+
+.two {
+  background-color: blue;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+} */
+
+/* 
+    Task : 
+        overlay!!! 
+        fixed pointer
+*/

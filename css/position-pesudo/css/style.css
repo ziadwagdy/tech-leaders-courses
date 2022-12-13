@@ -1,0 +1,104 @@
+/* 
+    Pseudo Classes 
+        :hover -> links
+        :visited 
+        :checked
+        :focus
+        :nth-child()
+
+    < .. class="class1"></>
+    < .. class="class2"></>
+    class1 + class2 -> select the next element "class2"
+
+*/
+
+a {
+  text-decoration: none;
+}
+
+a {
+  background-color: blue;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+.main:hover + a {
+  color: red;
+  background-color: yellow;
+  display: inline-block;
+  height: 50px;
+}
+
+.main {
+  background-color: #ccc;
+}
+
+input:checked + label {
+  display: none;
+}
+
+.username:focus {
+  outline-color: blue;
+  background-color: black;
+  color: white;
+}
+
+/* 
+    Pseudo Element :: 
+        ::first-letter -> Element in the first letter 
+        ::first-line   -> first line inside an element
+        ::after   -> adding element after a content 
+        ::before  ->  adding element before a conent 
+
+*/
+
+.text-p::first-letter {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.text-p::first-line {
+  font-style: italic;
+  background-color: yellow;
+}
+
+.info {
+  background-color: #ccc;
+}
+
+.info::after {
+    display: block;
+    content: "after";
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+
+.info::before {
+    display: block;
+    content: "before";
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+
+/* Task 
+     
+    use pseudo classes
+        Form
+        
+    use pseudo elements 
+        Paragraph 
+
+    
+*/

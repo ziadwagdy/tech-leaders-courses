@@ -1,0 +1,17 @@
+h2 { 
+    text-align: left;
+    direction: rtl;
+}
+
+
+div { 
+    text-align: center;
+    height: 100px;
+    background-color: red;
+}
+
+
+div img { 
+    vertical-align: top;
+
+}

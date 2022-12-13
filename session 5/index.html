@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div>
+      <form action="profile.html" method="get">
+        <!-- showing text -->
+        <label for="fname">First Name</label>
+
+        <!-- Input field : type "text" -->
+        <input
+          id="fname"
+          type="text"
+          placeholder="Enter your first name"
+          name="firstname"
+        />
+
+        <br />
+        <br />
+        <label for="lname">Last name</label>
+        <input
+          id="lname"
+          type="text"
+          placeholder="Enter your last name"
+          name="lastname"
+        />
+
+        <br />
+        <br />
+        <label for="pass">Password</label>
+
+        <input
+          id="pass"
+          type="password"
+          placeholder="Enter a strong password"
+          name="password"
+        />
+
+        <br />
+        <br />
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" name="email" />
+
+        <!-- Radio button  : MUST ADD NAME AND VALUES -->
+        <h2>Select your operating system:</h2>
+        <input id="win" type="radio" name="system" value="windows" />
+        <label for="win">Windows</label>
+
+        <br />
+        <input id="ubu" type="radio" name="system" value="ubnuntu" />
+        <label for="ubu">Ubuntu</label>
+
+        <br />
+        <input id="mac" type="radio" name="system" value="mac" />
+        <label for="mac">MacOS</label>
+
+        <h2>Which programming languages do you know?</h2>
+        <input type="checkbox" id="java" name="lang" value="java" />
+        <label for="java">Java</label>
+        <br />
+
+        <input type="checkbox" id="python" name="lang" value="python" />
+        <label for="python">Python</label>
+        <br />
+
+        <input type="checkbox" id="c#" name="lang" value="csharp" />
+        <label for="c#">C#</label>
+        <br />
+
+        <br />
+        <label for="color">Select your favorite color</label>
+        <input type="color" id="color" name="color" />
+        <br />
+
+        Select your birthday: <input type="datetime-local" name="dateOfBirth" />
+
+        <br />
+        <label for="countries">Please select a country</label>
+        <select name="country" id="countries">
+          <option value="">-----SELECT YOUR COUNTRY-----</option>
+          <option value="eg">Egypt</option>
+          <option value="tr">Turkey</option>
+          <option value="gr">Germany</option>
+        </select>
+        <br />
+
+        <br />
+        <br />
+        <label for="languages">Which languages do you speak?</label>
+        <select name="languages" id="languages" multiple>
+          <option value="ar">Arabic</option>
+          <option value="en">English</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+        </select>
+        <br />
+        <br />
+
+        <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+
+
+        <button type="button">Click Me!!</button>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>

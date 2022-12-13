@@ -1,0 +1,24 @@
+/* 
+    Text Decoration Transformation
+
+    Opacity
+
+    Position
+
+*/
+
+p {
+  /* 
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through; 
+  */
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  /* text-transform: uppercase; */
+  /* text-transform: none; */
+}
+
+a { 
+    text-decoration: none;
+}
