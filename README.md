@@ -1,2 +1,1 @@
-# Technology-leaders-Web-Design-Course
-# tech-leaders-courses
+# Technology-leaders-Web-Course
